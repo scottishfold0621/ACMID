@@ -1,0 +1,31 @@
+config_path: ./Instruments_cleaner_config.yaml
+data:
+  num_fois: 1
+  sample_rate: 16000
+  target_instrument: acoustic_guitar
+  task_type: instrument_cleaner
+models:
+- dasheng_base
+save:
+  save_path: ./ckpts/07171054/Instruments_cleaner_config
+  save_root: ./ckpts
+train:
+  batch_size: 16
+  device: cuda
+  fine_tune: false
+  hidden_dims:
+  - 256
+  - 128
+  - 64
+  learning_rate: 0.0005
+  lr_scheduler:
+    name: warmup_cosine
+    warmup_ratio: 0.05
+  min_learning_rate: 1.0e-05
+  num_workers: 4
+  resume_training: false
+  start_epoch: 0
+  threshold: 0.5
+  total_epochs: 50
+  use_batchnorm: false
+  use_dropout: false

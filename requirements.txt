@@ -1,0 +1,14 @@
+torch
+torchaudio
+librosa
+soundfile
+numpy
+pandas
+matplotlib
+# youtubesearchpython
+# tqdm
+fire
+einops
+thop
+torchinfo
+dasheng
