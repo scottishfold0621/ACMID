@@ -5,9 +5,7 @@ This repository hosts the official code and pre-trained models for the paper "AC
 
 we propose ACMID (Automatic Curation of Musical Instrument Dataset), a pipeline that:
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/scottishfold0621/ACMID/main/image/main_procedure1.png">
-</div>
+![image text](https://github.com/scottishfold0621/ACMID/blob/main/image/main_procedure1.png)
 
 - Crawls target instrument raw video from YouTube using multilingual queries.
 - Cleans the raw data with a pre-trained audio encoder-based binary classifier, resulting in a high-precision 7-stem data (ACMID-Cleaned).
