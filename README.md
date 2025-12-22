@@ -67,12 +67,14 @@ python inference.py --instr piano --input_path /path/to/your/piano_audio_files -
 ## 4. Citation
 If you find this work useful, please cite our paper:
 ```bibtex
-@inproceedings{ji2026acmid,
-  title={ACMID: Automatic Curation of Musical Instrument Dataset for 7-Stem Music Source Separation},
-  author={Ji, Yu and Yang, shuo and Xu, Yuetonghui and Liu, Mengmei and Ji, Qiang and Han, Zerui},
-  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2026},
-  organization={IEEE}
+@misc{ji2026acmid,
+  title         = {{ACMID}: Automatic Curation of Musical Instrument Dataset for 7-Stem Music Source Separation},
+  author        = {Ji, Yu and Yang, Shuo and Xu, Yuetonghui and Liu, Mengmei and Ji, Qiang and Han, Zerui},
+  year          = {2025},
+  eprint        = {2510.07840},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SD}, 
+  url           = {https://arxiv.org/abs/2510.07840}
 }
 ```
 
