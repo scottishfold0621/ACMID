@@ -72,8 +72,7 @@ If you find this work useful, please cite our paper:
   year          = {2025},
   eprint        = {2510.07840},
   archivePrefix = {arXiv},
-  primaryClass  = {cs.SD}, 
-  url           = {https://arxiv.org/abs/2510.07840}
+  primaryClass  = {cs.SD}
 }
 ```
 
