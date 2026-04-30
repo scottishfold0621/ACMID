@@ -63,7 +63,3 @@ python inference.py --instr piano --input_path /path/to/your/piano_audio_files -
 - `--input_path`: Path to the directory containing the audio files to be cleaned.
 - `--output_path`: Path to the directory where the cleaned audio files will be saved.
 - `--threshold`: The confidence threshold for the cleaning model.
-
-## 4. Citation
-If you find this work useful, please cite 
-
