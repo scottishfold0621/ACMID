@@ -65,14 +65,5 @@ python inference.py --instr piano --input_path /path/to/your/piano_audio_files -
 - `--threshold`: The confidence threshold for the cleaning model.
 
 ## 4. Citation
-If you find this work useful, please cite our paper:
-```bibtex
-@misc{2026acmid,
-  title         = {{ACMID}: Automatic Curation of Musical Instrument Dataset for 7-Stem Music Source Separation},
-  year          = {2025},
-  eprint        = {2510.07840},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.SD}
-}
-```
+If you find this work useful, please cite 
 
