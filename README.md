@@ -1,4 +1,4 @@
-# ACMID: Automatic Curation of Musical Instrument Dataset for 7-Stem Music Source Separation
+# Automatic Curation of Large-Scale, High-Quality, Multi-Category Music Source Separation Dataset
 This repository hosts the official code and pre-trained models for the paper "ACMID: Automatic Curation of Musical Instrument Dataset for 7-Stem Music Source Separation" (submitted to ICASSP 2026). The project addresses key limitations in music source separation (MSS) by constructing a high-quality, high-granularity 7-stem dataset through automated web crawling and data cleaning.
 
 ## 1. Project Overview
